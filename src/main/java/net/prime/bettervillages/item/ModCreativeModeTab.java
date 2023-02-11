@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab BETTER_VILLAGES = new CreativeModeTab("bettervillages") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.ZIRCON.get());
+            return new ItemStack(ModItems.ZIRCON_HELMET.get());
         }
     };
 }
