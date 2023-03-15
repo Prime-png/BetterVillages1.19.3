@@ -1,5 +1,8 @@
 {
  "item.bettervillages.zircon": "Zircon",
+ "itemGroup.bettervillages": "Better Villages",
  "item.bettervillages.zircon_helmet": "Zircon Helmet",
- "itemGroup.bettervillages": "Better Villages"
+ "item.bettervillages.zircon_chestplate": "Zircon Chestplate",
+ "item.bettervillages.zircon_leggings": "Zircon Leggings",
+ "item.bettervillages.zircon_boots": "Zircon Boots"
 }
