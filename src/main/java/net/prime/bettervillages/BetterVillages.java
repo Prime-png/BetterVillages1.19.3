@@ -37,7 +37,7 @@ public class BetterVillages
 
     }
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == ModCreativeModeTab.BETTER_VILLAGES) {
+        if(event.getTab() == ModCreativeModeTabs.BETTER_VILLAGES) {
             event.accept(ModItems.ZIRCON);
             event.accept(ModItems.ZIRCON_BOOTS);
             event.accept(ModItems.ZIRCON_LEGGINGS);
