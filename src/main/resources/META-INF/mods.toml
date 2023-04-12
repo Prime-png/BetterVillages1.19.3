@@ -63,9 +63,3 @@ description=''' desc...
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.bettervillages]]
-    modId="geckolib"
-    mandatory=true
-    versionRange="[4.0.4]"
-    ordering="NONE"
-    side="BOTH"
