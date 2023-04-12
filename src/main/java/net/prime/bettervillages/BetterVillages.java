@@ -11,7 +11,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.prime.bettervillages.entity.ModEntities;
 import net.prime.bettervillages.item.ModCreativeModeTab;
 import net.prime.bettervillages.item.ModItems;
 import org.slf4j.Logger;
@@ -31,7 +30,6 @@ public class BetterVillages
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-        ModEntities.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
